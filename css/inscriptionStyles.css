@@ -5,83 +5,10 @@
 }
 body{
     width: 100%;
-    background-color: white;
+    background-color: rgb(247, 245, 245);
 }
 
-.titre{
-    font-size: 2rem;
-    margin-left: -4rem;
-  }
-  .titre a{
-      text-decoration: none;
-      color: black;
-  }
-  
-  .computer{
-      height: 3.5rem;
-      width: 3.5rem;
-      background-color: brown;
-      border-radius: 100%;
-      border: 2px solid blue;
-      color: white;
-      padding-left: 1rem;
-      padding-top: 1rem;
-      margin-left: 1rem;
-  }
-  .display{
-      display: flex;
-      margin-top: 2rem;
-      justify-content: space-around;
-  }
-  
-  .recherche{
-      height: 2.5rem;
-      width: 32rem;
-      border:1px solid black;
-      border-radius: 50px;
-      padding-left: 1rem;
-  }
-  
-  .profil{
-      height: 2rem;
-      width: 2rem;
-      margin-right: 5rem;
-  }
-  
-  .panier{
-      height: 2rem;
-      width: 2rem;
-  }
-  .grand{
-      display: flex;
-      justify-content: center;
-      justify-content: space-around;
-      align-items:flex-end;
-  }
-hr{
-    margin-top: 2.5rem;
-}
 
-.end{
-    display: flex;
-    justify-content: space-between;
-}
-
-.display1{
-    display: flex;
-    margin-top: 1rem;
-    margin-right: 5rem;
-}
-.logo{
-    margin-right: 1rem;
-    height: 2rem;
-    width: 2rem;
-}
-
-nav ul{
-    display: flex;
-    
-}
 nav ul li{
     margin-left: 3rem;
     margin-top: 2rem;
@@ -93,88 +20,11 @@ nav ul a{
     color: black;
 }
 
-.bleu{
-    background-color: rgb(1, 1, 100);
-    height: 7rem;
-    margin-top: 1.5rem;
-}
-
-.fourni{
-    color :white;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 3rem;
-    position: absolute;
-    margin-top: 2rem;
-}
-
-footer{
-    height: 7rem;
-    width: 100%;
-    background-color: rgb(1, 1, 100);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12rem;
-}
-
-footer .copy{
-    color:white;
-    font-weight: bold;
-}
-
-.rouge{
-    color:red
-}
-
-.cart{
-    height: 4rem;
-    width: 25rem;
-    border: 1px solid black;
-}
-
-.cart{
-    display: flex;
-    align-items: center;
-}
-
-.cart img{
-    margin-left: 1rem;
-}
-.gauche{
-    margin-left: 1rem;
-    font-weight: bold;
-}
-
-.centre a{
-    text-decoration: none;
-    color: black;
-}
-
-.ble1{
-    background-color: rgb(1, 1, 100);
-    color: white;
-    }
-    .ble1 a{
-        color: white;
-        }
-
-.ble:hover{
-background-color: rgb(1, 1, 100);
-color: white;
-}
-.ble a:hover{
-    color: white;
-    }
-
-    .flex{
-        display: flex;
-    }
 
 form{
     display: flex;
     justify-content: center;
-    background-color:gray;
+    background-color:rgb(101, 87, 87);
     height: 30rem;
     width: 50rem;
     margin: 0% auto;
@@ -209,7 +59,7 @@ label{
 .div{
     height: 2rem;
     width: 6rem;
-    background-color:rgb(1, 1, 100); 
+    background-color:rgb(100, 67, 1); 
     border-radius: 10px;
     color: white;
     border: 1px solid black;
@@ -225,17 +75,6 @@ label{
     font-size: 1.5rem;
  }
 
-.connex{
-    height: 1.5rem;
-    width: 5rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.ici{
-    margin-top: 2rem;
-    
-}
 
 .ici a {
     text-decoration: none;
