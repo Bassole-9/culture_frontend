@@ -19,7 +19,7 @@ const body ={
 let message = document.querySelector(".alert")
 
 try{
-    const response = await fetch ("http://localhost/api/users",{
+    const response = await fetch ("https://culturelle.onrender.com/api/users",{
         method : "POST",
         headers : {
             "content-type":"application/json"
